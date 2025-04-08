@@ -1,0 +1,53 @@
+[
+    {
+      "Id": 1,
+      "cover": "https://i.ibb.co.com/tpjNqhFX/kenny-eliason-3-GZNPBLIm-Wc-unsplash.jpg",
+      "title": "Mastering React in 30 Days",
+      "author": "Jane Doe",
+      "author_img": "https://i.ibb.co.com/hJTQy8Pj/mark-aliiev-IM8-GISKf-Dgo-unsplash.jpg",
+      "posted_date": "2025-04-01",
+      "reading_time": 6,
+      "hashtags": ["#react", "#javascript", "#frontend"]
+    },
+    {
+      "Id": 2,
+      "cover": "https://i.ibb.co.com/n8sJjQYz/unseen-studio-s9-CC2-SKy-SJM-unsplash.jpg",
+      "title": "The Future of AI in Web Development",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co.com/84MzFQGc/sajad-nori-Ux-VLQ9-UXHp0-unsplash.jpg",
+      "posted_date": "2025-03-20",
+      "reading_time": 8,
+      "hashtags": ["#AI", "#webdev", "#technology"]
+    },
+    {
+      "Id": 3,
+      "cover": "https://i.ibb.co.com/dwxGx5rq/thought-catalog-505eect-W54k-unsplash.jpg",
+      "title": "How to Build a Full-Stack App with Flask and React",
+      "author": "Emily Rose",
+      "author_img": "https://i.ibb.co.com/B21wNfCM/khanh-nguyen-KXd-DPIUMt-TA-unsplash.jpg",
+      "posted_date": "2025-02-15",
+      "reading_time": 10,
+      "hashtags": ["#flask", "#react", "#fullstack"]
+    },
+    {
+      "Id": 4,
+      "cover": "https://i.ibb.co.com/TBD7NC0q/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg",
+      "title": "10 Tips to Improve Your Coding Productivity",
+      "author": "Michael Lee",
+      "author_img": "https://i.ibb.co.com/MyBSkkL7/arun-prakash-F6-T2-ZN3s-Uao-unsplash.jpg",
+      "posted_date": "2025-01-10",
+      "reading_time": 5,
+      "hashtags": ["#productivity", "#coding", "#developerlife"]
+    },
+    {
+      "Id": 5,
+      "cover": "https://i.ibb.co.com/3yvVjzpF/andrew-neel-cckf4-Ts-HAuw-unsplash.jpg",
+      "title": "Understanding Machine Learning Models in Simple Terms",
+      "author": "Sara Khan",
+      "author_img": "https://i.ibb.co.com/3yvVjzpF/andrew-neel-cckf4-Ts-HAuw-unsplash.jpg",
+      "posted_date": "2025-03-05",
+      "reading_time": 7,
+      "hashtags": ["#machinelearning", "#AI", "#datascience"]
+    }
+  ]
+  
