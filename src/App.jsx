@@ -7,16 +7,23 @@ import Header from './Components/Header/Header'
 
 function App() {
   const [bookMarks, setBookMarks] = useState([])
+  const [markAsRead, setMarkAsRead] = useState(0);
   const handleBookMark = (blog) => {
-    console.log("New blog is coming", blog);
+    // console.log("New blog is coming", blog);
     const newBookMarks = [...bookMarks, blog]
     setBookMarks(newBookMarks)
 
   }
-  const [markAsRead, setMarkAsRead] = useState(0);
-  const handleMarkAsRead = (time) => {
+  
+  const handleMarkAsRead = (id, time) => {
+    console.log("Bookmark IDs:", bookMarks.map(b => b.id));
+console.log("Removing ID:", id);
+
+    
     const newReadingTime = markAsRead + time;
     setMarkAsRead(newReadingTime)
+    const remainingBookMarks = bookMarks.filter(bookmark => bookmark.id !== id)
+    setBookMarks(remainingBookMarks)
   }
 
 

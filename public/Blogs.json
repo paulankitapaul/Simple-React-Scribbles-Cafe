@@ -1,6 +1,6 @@
 [
     {
-      "Id": 1,
+      "id": 1,
       "cover": "https://i.ibb.co.com/tpjNqhFX/kenny-eliason-3-GZNPBLIm-Wc-unsplash.jpg",
       "title": "Mastering React in 30 Days",
       "author": "Jane Doe",
@@ -10,7 +10,7 @@
       "hashtags": ["#react", "#javascript", "#frontend"]
     },
     {
-      "Id": 2,
+      "id": 2,
       "cover": "https://i.ibb.co.com/n8sJjQYz/unseen-studio-s9-CC2-SKy-SJM-unsplash.jpg",
       "title": "The Future of AI in Web Development",
       "author": "John Smith",
@@ -20,7 +20,7 @@
       "hashtags": ["#AI", "#webdev", "#technology"]
     },
     {
-      "Id": 3,
+      "id": 3,
       "cover": "https://i.ibb.co.com/dwxGx5rq/thought-catalog-505eect-W54k-unsplash.jpg",
       "title": "How to Build a Full-Stack App with Flask and React",
       "author": "Emily Rose",
@@ -30,7 +30,7 @@
       "hashtags": ["#flask", "#react", "#fullstack"]
     },
     {
-      "Id": 4,
+      "id": 4,
       "cover": "https://i.ibb.co.com/TBD7NC0q/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg",
       "title": "10 Tips to Improve Your Coding Productivity",
       "author": "Michael Lee",
@@ -40,7 +40,7 @@
       "hashtags": ["#productivity", "#coding", "#developerlife"]
     },
     {
-      "Id": 5,
+      "id": 5,
       "cover": "https://i.ibb.co.com/3yvVjzpF/andrew-neel-cckf4-Ts-HAuw-unsplash.jpg",
       "title": "Understanding Machine Learning Models in Simple Terms",
       "author": "Sara Khan",
