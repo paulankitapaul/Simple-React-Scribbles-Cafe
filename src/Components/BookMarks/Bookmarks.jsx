@@ -1,13 +1,16 @@
 import PropTypes from 'prop-types';
 import BookMark from '../BookMark/BookMark';
 
-const Bookmarks = ({ bookMarks }) => {
+const Bookmarks = ({ bookMarks, markAsRead }) => {
     return (
-        <div className="w-1/3 bg-gray-300 ml-4 mt-3">
-            <h3 className='text-3xl  text-center '>BookMarked: {bookMarks?.length}</h3>
-            {
-                bookMarks.map(bookMark =><BookMark bookmark={bookMark}></BookMark>)
-            }
+        <div className="w-1/3 ml-4 mt-3"><h2>Spending-Time:{markAsRead}</h2>
+            <div className=' bg-gray-300' >
+
+                <h3 className='text-3xl  text-center '>BookMarked: {bookMarks?.length}</h3>
+                {
+                    bookMarks.map(bookMark => <BookMark bookmark={bookMark} ></BookMark>)
+                }
+            </div>
         </div>
     );
 };
